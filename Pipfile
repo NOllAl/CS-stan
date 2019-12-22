@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pystan = "*"
+pandas = "*"
+numpy = "*"
+seaborn = "*"
+jupyter = "*"
+arviz = "*"
+altair = "*"
+vega-datasets = "*"
+jupyterlab = "*"
+
+[requires]
+python_version = "3.7"
